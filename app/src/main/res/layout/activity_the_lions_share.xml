@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheLionsShare">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="The Lion went once a-hunting along with the Fox, the Jackal, and the Wolf.
+
+They hunted and they hunted till at last they surprised a Stag, and soon took its life.
+
+Then came the question how the spoil should be divided.
+
+Quarter me this Stag, roared the Lion; so the other animals skinned it and cut it into four parts.
+
+        Then the Lion took his stand in front of the carcass and pronounced judgment: The first quarter is for me in my capacity as King of Beasts; the second is mine as arbiter; another share comes to me for my part in the chase; and as for the fourth quarter, well, as for that, I should like to see which of you will dare to lay a paw upon it.
+
+        Humph, grumbled the Fox as he walked away with his tail between his legs; but he spoke in a low growl:
+
+        You may share the labours of the great, but you will not share the spoil.
+
+        "/>
+
+    </RelativeLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>
